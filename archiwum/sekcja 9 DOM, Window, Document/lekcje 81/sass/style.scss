@@ -1,0 +1,32 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	height: 100vh;
+	background-color: #333;
+	color: white;
+}
+
+button {
+	display: block;
+	width: 200px;
+	margin: 20px auto;
+	border: 2px solid white;
+	border-radius: 5px;
+	padding: 10px;
+	// font-size: 16px;
+	background-color: #333;
+	text-transform: uppercase;
+	color: #fff;
+	transition: color 0.3s, background-color 0.3s;
+}
+
+button:hover {
+	color: black;
+	background-color: #fff;
+}
